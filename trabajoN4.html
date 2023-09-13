@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Idiomas Extranjeros</h2>
+    <p>¡Bienvenido al curso de idiomas extranjeros! En este emocionante viaje, exploraremos la maravillosa diversidad
+        lingüística que el mundo tiene para ofrecer. Si estás listo para abrir nuevas puertas, desafiar tus límites y
+        sumergirte en culturas fascinantes, estás en el lugar correcto. <br>
+
+        En este curso, te guiaremos a través de un enriquecedor viaje de aprendizaje de idiomas.
+        Aprenderás a través de una combinación de actividades dinámicas y ejercicios interactivos, todo diseñado para
+        que puedas aplicar tus conocimientos de inmediato. <br>
+
+        Nuestro equipo de instructores altamente capacitados y apasionados te guiará en cada paso del camino,
+        brindándote apoyo personalizado y retroalimentación constructiva. <br>
+
+        Este curso abarca una amplia variedad de idiomas extranjeros, desde los más hablados hasta aquellos menos
+        comunes pero igualmente fascinantes. Podrás elegir entre idiomas como inglés, francés, español, alemán, chino,
+        japonés y muchos más. <br>
+
+        Estamos emocionados de embarcarnos en este viaje juntos y esperamos ver cómo te transformas en un comunicador
+        fluido y confiado en el idioma que elijas. ¡Prepárate para abrir nuevas puertas de oportunidades y descubrir el
+        mundo de una manera completamente nueva! <br>
+    </p>
+    <div> <img id="center" src="/imagenes/idiomas.jpg" alt=""></div>
+    <h2 id="inicio">Iniciar Sesion</h2>
+
+    <form action="https://formspree.io/f/xbjvlzpl" method="post"> 
+        <label class="sesion" for="contra">ContraseñaASDASAA: </label><input class="sesionn" type="password" name="Contraseña"
+            id="contra_usuario" placeholder="Contraseña" required></span><br>
+
+        <label class="sesion" for="email">Correo ElectronicoAA: </label><input class="sesionn" type="email" name="email"
+            id="correo_usuario" placeholder="Email" required>
+
+        <input class="Enviar" type="submit">
+    </form>
+
+    <h2 id="datos_usuario">Completar los siguientes datos personales:</h2>
+
+    <form action="https://formspree.io/f/xbjvlzpl" method="post" class="datos_personales">
+
+        <input type="text" name="nombre" id="nombre_usuario" placeholder="Nombre " required>
+        <input type="text" name="Apellido" id="Apellido_usuario" placeholder="Apellido" required> <br>
+        <input type="number" name="Edad" id="edad_usuario" placeholder="Edad" required>
+        <input id="nacimiento" type="date" name="nacimiento" placeholder="Fecha de nacimiento" required>
+
+        <div id="provincias"><label class="sesion" for="provincia">A que provincia perteneces?</label>
+            <select class="provincia" name="provincia" id="provincia" required>
+
+                <option value="otra">Otra provincia</option>
+                <option value="cba">Cordoba</option>
+                <option value="cata">Catamarca</option>
+                <option value="tucu">Tucuman</option>
+                <option value="sant">Santiago del Estero</option>
+                <option value="sanl">San Luis</option>
+                <option value="rio">L Rioja</option>
+                <option value="cha">Chaco</option>
+                <option value="men">Mendoza</option>
+                <option value="juan">San Juan</option>
+                <option value="bsas">Buenos Aires</option>
+            </select>
+        </div>
+        <form action="https://formspree.io/f/xbjvlzpl" method="post">
+            <input type="radio" id="html" name="genero" value="hombre">
+            <label class="labell" for="html">Hombre</label><br>
+            <input type="radio" id="css" name="genero" value="Mujer">
+            <label class="labell" for="css">Mujer</label><br>
+            <input type="radio" id="javascript" name="genero" value="otro" required>
+            <label class="labell" for="javascript">Otro</label><br>
+        <h2>Si tiene conocimientos previos escriba una breve reseña.</h2>
+            <textarea name="25" id="" cols="25" rows="10"></textarea>
+
+
+        <input type="number" name="cel" id="cel_Uduario" placeholder="Numero Telefonico" required>
+            <input class="enviar2" type="submit">
+        </form>
+    </form>
+
+</body>
+
+</html>
